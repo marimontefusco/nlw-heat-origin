@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+/* Primary Colors */
+    --pink: #ff008e;
+    --orange: #ff7b29;
+    --yellow: rgb(255, 206, 31);
+
+    --dark-black: #09090A;
+    --black: #121214;
+    --light-black1: #202024;
+
+    --dark-gray: #29292E;
+    --gray: #8D8D99;
+    --light-gray: #C4C4CC;
+    --super-light-gray: #E1E1E6;
+
+    --white: #FFFFFF;
+
+/* Gradient */
+    --gradient: linear-gradient(135deg, var(--pink), var(--orange), var(--yellow)) ;
+
+/* Font */
+    --Roboto: 'Roboto', sans-serif;
+}
