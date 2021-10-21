@@ -6,13 +6,13 @@
 
 :root {
 /* Primary Colors */
-    --pink: #ff008e;
-    --orange: #ff7b29;
-    --yellow: rgb(255, 206, 31);
+    --pink: hsl(327, 100%, 50%);
+    --orange: hsl(23, 100%, 58%);
+    --yellow: hsl(47, 100%, 56%);
 
-    --dark-black: #09090A;
-    --black: #121214;
-    --light-black1: #202024;
+    --dark-black: hsl(240, 5%, 4%);
+    --black: hsl(240, 5%, 7%);
+    --light-black1: hsl(240, 6%, 13%);
 
     --dark-gray: hsl(240, 6%, 17%);
     --gray: hsl(240, 6%, 58%);
