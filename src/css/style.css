@@ -1,0 +1,124 @@
+body {
+  background-color: var(--dark-black);
+  width: 100vw;
+  height: 100vh;
+
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialised;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-retangle {
+    width: 64px;
+    height: 158px;
+    background: linear-gradient(to bottom, var(--pink), var(--yellow));
+}
+
+main {
+  background: url("../../assets/background.svg");
+  background-position: center;
+  width: 358px;
+  /*height: 540px;*/
+  padding: 0 3rem 2rem;
+  text-align: center;
+}
+
+.content-badge {
+    max-width: 262px;
+    margin-top: 3.6rem;
+}
+
+.avatar {
+    width: 10rem;
+    margin: 0 auto 1.5rem;
+
+    position: relative;
+}
+
+.avatar span img {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    height: 5rem;
+    z-index: 2;
+}
+
+.avatar > img {
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--super-light-gray);
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.content-badge .github-container a {
+    width: 55%;
+    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.content-badge .github-container img {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.content-badge .github-container p {
+    font-size: 1rem;
+    color: var(--super-light-gray);
+    margin-bottom: 0;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+  color: var(--super-light-gray);
+  margin-bottom: 2.5rem;
+}
+
+.social-container {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.social-container ul{
+    max-width: 15rem;
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 0; 
+}
+
+.social-container ul li {
+    width: 48px;
+    height: 48px; 
+    list-style: none;
+    background-color: var(--dark-gray);
+    margin: 0 .25rem;
+}
+
+.social-container ul li img:first-child, .social-container ul li img:last-child {
+    width: 24.7px;
+    height: 19.2px;
+    margin-top: 14.4px;
+}
+
+.social-container ul li img:nth-child(2), .social-container ul li img:nth-child(3) {
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+}
