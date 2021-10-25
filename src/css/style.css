@@ -77,7 +77,7 @@ h1 {
     align-self: center;
 }
 
-.content-badge .github-container p {
+.content-badge .github-container span {
     font-size: 1rem;
     color: var(--super-light-gray);
     margin-bottom: 0;
