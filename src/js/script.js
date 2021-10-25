@@ -1,10 +1,10 @@
 const linksSocialMedias = {
   github: "marimontefusco",
-  youtube: "UCqMcP-4pDs3_h4YpAAKh1gg",
+  youtube: "#",
   instagram: "marimontefusco",
   facebook: "mariana.montefusco",
   twitter: "#"
-}
+};
 
 function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
@@ -14,28 +14,32 @@ function changeSocialMediaLinks() {
     console.log(social)
 
     li.children[0].href = `https://${social}.com/${linksSocialMedias[social]}`
-
-    /*console.log(li.children[0].href)*/
   }
-}
+};
 
 function changePersonalName() {
   document.getElementById("userName").textContent = "Mariana Montefusco"
   /* userName.textContent = "Mariana Montefusco"*/
-}
+};
 
-/* To do: change to my github at div.github-container 
+changeSocialMediaLinks();
+changePersonalName();
+
+
+/* To do: change to my github at div.github-container:    
 function changeGithub() {
-    const github = document.getElementsByClassName("github-container");
-    console.log(github);
-    
-    github.children[0].href.textContent = `https://github.com/${linksSocialMedias[0]}`
+    const github = document.getElementsByClassName("github-container")
+    github.children[0].href.textContent = `https://github.com/marimontefusco`
+
+    const githubimg = document.getElementsByClassName("github-item")
+    githubimg.getAttribute("href").textContent = `https://github.com/marimontefusco`
+
+    console.log(github)
 }
 
 changeGithub()
-
 */
 
-changeSocialMediaLinks()
-changePersonalName()
+
+
 
