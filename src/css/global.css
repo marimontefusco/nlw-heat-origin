@@ -5,13 +5,13 @@
 
 :root {
 /* Primary Colors */
-    --pink: hsl(327, 100%, 50%);
-    --orange: hsl(23, 100%, 58%);
-    --yellow: hsl(47, 100%, 56%);
+    --pink: #ff008c;
+    --orange: #ff7b29;
+    --yellow: #ffcd1e;
 
     --dark-black: hsl(240, 5%, 4%);
     --black: hsl(240, 5%, 7%);
-    --light-black1: hsl(240, 6%, 13%);
+    --light-black: hsl(240, 6%, 13%);
 
     --dark-gray: hsl(240, 6%, 17%);
     --gray: hsl(240, 6%, 58%);
@@ -19,8 +19,5 @@
     --super-light-gray: hsl(240, 9%, 89%);
 
     --white: hsl(0, 0%, 100%);
-
-/* Gradient */
-    --gradient: linear-gradient(135deg, var(--pink), var(--orange), var(--yellow)) ;
 }
 
